@@ -1,0 +1,79 @@
+.sectionFirst {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.sectionFirst .containerSecond {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.sectionFirst   .containerSecond  .writeArea {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    width: 90%;
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.sectionFirst .containerSecond .writeArea h2{
+    color: white;
+    max-width: 80%;
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.sectionFirst .containerSecond .writeArea span {
+    background-color: #FFB606;
+    max-width: 80%;
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media screen and (max-width: 576px) {
+    .secionFirst   .containerSecond   .writeArea {
+        font-size: 20px; 
+    }
+     .secionFirst   .containerSecond  .writeArea h2{   
+        font-size: 20px;
+    }
+        .secionFirst   .containerSecond   .writeArea .span{
+            font-size: 20px;
+        }
+} 
+
+ @media screen and (min-width: 300px) {
+     /* .secionFirst   .containerSecond   .writeArea {
+         font-size: 6px;   */
+    /* } */
+     .secionFirst   .containerSecond   .writeArea h2{   
+        font-size: 6px;}
+ /* .sectionFirst  .containerSecond  .writeArea  span{
+   
+        font-size: 6px; }   */
+          
+}
+   

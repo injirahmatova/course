@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: fixed;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.container .logo {
+
+    display: flex;
+    /* width: 0%; */
+    margin: auto;
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+.container nav ul {
+
+    display: flex;
+    /* justify-content: flex-end; */
+    gap: 15px;
+}
+
+.container nav ul li {
+    list-style: none;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.container nav ul li a :hover {
+    cursor: pointer;
+    color: #FED060;
+    transition: 1s;
+}
+
+.container .menu {
+    display: none;
+    margin: auto;
+}
+
+.phone {
+    width: 20%;
+    /* margin: auto; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFB606;
+    margin-right: 0;
+
+}
+
+.phone p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.phone img {
+    width: 8%;
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 991px) {
+    .container nav {
+        display: none;
+    }
+
+    .container .menu {
+        display: block;
+    }
+
+    .container .phone {
+        width: 50px;
+    }
+
+    .container .phone p {
+        display: none;
+        font-size: 8px;
+    }
+
+    .container .phone img {
+        display: block;
+        width: 15%;
+    }
+}
+
+@media screen and (min-width:300px) {
+
+    /* .container nav {
+        display: none;
+    }
+    .container .menu{
+        display: block;
+    }  */
+    .container .phone {
+        width: 50px;
+    }
+
+    .container .phone p {
+        display: none;
+        font-size: 8px;
+    }
+
+    .container .phone img {
+        display: block;
+        width: 15%;
+    }
+
+}

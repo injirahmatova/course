@@ -1,0 +1,166 @@
+.sectionThird {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: auto; */
+
+}
+
+.sectionThird .popular {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+.sectionThird .popular .line {
+    width: 8%;
+    height: 4px;
+    background-color: #FFB606;
+    margin-top: 15px;
+}
+
+.sectionThird .popular .cours {
+    font-family: 'Roboto' sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1A1A1A;
+}
+
+.sectionThird .containerThird {
+    width: 90%;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* padding: 5px; */
+    margin-top: 15px;
+
+}
+
+.sectionThird .containerThird .photos {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: #F8F9FB;
+
+}
+
+.sectionThird .containerThird .photos .div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    position: relative;
+
+}
+
+.sectionThird .containerThird .photos .div .img {
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 0;
+
+}
+
+.sectionThird .containerThird .photos .div .text {
+    font-family: 'Roboto' / sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1A1A1A;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.sectionThird .containerThird .photos .div .spane {
+    font-family: 'Roboto' / sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 165, 165);
+    position: absolute;
+    bottom: 15px;
+}
+
+.sectionThird .containerThird .photos .photoDiv {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sectionThird .containerThird .photos .photoDiv .authorP {
+    font-family: 'Roboto' / sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+
+}
+
+.sectionThird .containerThird .photos .photoDiv .authorSpan {
+    font-family: 'Roboto' / sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #B5B5B5;
+
+}
+
+.sectionThird .containerThird .photos .photoDiv .imageAuthor {
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sectionThird .containerThird .photos .photoDiv .payment {
+    width: 60%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.sectionThird .containerThird .photos .photoDiv .payment .pay {
+    background-color: #FFB606;
+    color: white;
+    font-family: 'Roboto' / sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+width: 40%;
+padding: 12px;
+}
+@media screen  and (max-width: 991px){
+    .sectionThird .popular{
+        width: 100%;
+          
+    }
+    .sectionThird .containerThird {
+        width: 90%;
+        height: 260px;
+     flex-direction: column;
+     margin-top: 15px;
+    }
+    .sectionThird .containerThird .photos{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 15px;
+      
+    }
+
+}
